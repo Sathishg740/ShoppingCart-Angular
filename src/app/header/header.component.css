@@ -1,0 +1,21 @@
+nav{
+    background-color: aqua;
+}
+nav img{
+    width: 100px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 40px;
+}
+li a{
+    text-decoration: none;
+}

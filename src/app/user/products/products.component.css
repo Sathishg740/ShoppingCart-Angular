@@ -1,0 +1,116 @@
+.container {
+  
+    width: 900px;
+    margin: 10px auto;
+    justify-content: center;
+  }
+  h1 {
+    color: rgb(5, 138, 143);
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 50px;
+  }
+  .box{
+        /* width: 85%; */
+      display: flex;
+      justify-content: center;
+      background-color: white;
+      margin: 10px auto;
+      border: gray 5px solid;
+      display: table-cell;
+      border: outset;
+  }
+  .image {
+    margin: 10px;
+  }
+  .img {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: none;
+  }
+  .price {
+    margin: 10px 0 10px 50px;
+    padding: 10px;
+    align-items: center;
+  }
+  p {
+    font-size: 25px;
+    font-style: bold;
+  }
+  ul {
+    margin: 10px;
+  }
+  li {
+    margin-left: 20px;
+    line-height: 25px;
+  }
+  button {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(85, 206, 15);
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: orange;
+  }
+  .quantity-toggle {
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+  input {
+    height: 40px;
+    text-align: center;
+    width: 50px;
+    border: 2px solid grey(160, 153, 153);
+    border-radius: 4px;
+  }
+  .nav__cart {
+    margin: 0 auto;
+    text-align: right;
+    display: table-caption;
+  }
+  .cartBtn {
+    margin: 10px auto;
+    padding: 10px 20px;
+  }
+  .cart-dropdown {
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: #333;
+    overflow: auto;
+    padding: 0;
+    width: 200px;
+    text-align: right;
+    margin-inline-start: auto;
+  }
+  .cart-dropdown__list {
+   margin:10px;
+  }
+  .cart__quantity {
+    
+    padding: 20px;
+   
+  }
+  .total-quantity {
+    text-align: center;
+    color: aliceblue;
+    background: rgb(228, 19, 12);
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 8px;
+    top: -18px;
+    position: relative;
+    left: -20px;
+  }
+  ol{
+    text-decoration: peru;
+  }

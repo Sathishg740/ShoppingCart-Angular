@@ -1,0 +1,12 @@
+<form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+    <label>Email</label>
+    <input type="email" formControlName="user" />
+    <span *ngIf="user && user.invalid && user.touched">Enter valid email</span>
+    <br/>
+    <label>Password</label>
+    <input type="password" formControlName="password" />
+    <span *ngIf="password && password.invalid && password.touched">Enter valid password</span>
+
+    <br/>
+    <button [disabled]="loginForm.invalid" >Login</button>
+</form> 

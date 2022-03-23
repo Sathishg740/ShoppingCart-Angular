@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "title": "Mens Casual Premium Slim Fit T-Shirts",
+      "description": "The Henley style round neckline includes a three-button placket",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "actualPrice": 399,
+      "discountPrice": 50,
+      "id": 2
+    },
+    {
+      "title": "Mens Cotton Jacket",
+      "description": "great outerwear jackets",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "actualPrice": 125,
+      "discountPrice": 10,
+      "id": 3
+    },
+    {
+      "title": "Mens Casual Slim Fit",
+      "description": "The color could be slightly different between on the screen and in practice",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "actualPrice": 135,
+      "discountPrice": 10,
+      "id": 4
+    },
+    {
+      "title": "Solid Gold Petite Micropave ",
+      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days",
+      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "actualPrice": 155,
+      "discountPrice": 10,
+      "id": 5
+    },
+    {
+      "title": "White Gold Plated Princess",
+      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "actualPrice": 195,
+      "discountPrice": 10,
+      "id": 6
+    },
+    {
+      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "description": "Easy upgrade for faster boot up, shutdown, application load and response",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "actualPrice": 305,
+      "discountPrice": 10,
+      "id": 7
+    },
+    {
+      "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      "actualPrice": 555,
+      "discountPrice": 10,
+      "id": 8
+    },
+    {
+      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED",
+      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY",
+      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+      "actualPrice": 999,
+      "discountPrice": 10,
+      "id": 9
+    }
+  ]
+}
