@@ -10,9 +10,9 @@ import { Router } from '@angular/router';
 export class ProductsComponent implements OnInit {
 
   product:Products[];
-
+  item:any;
   constructor(private productService:ProductsService, private router:Router) { }
-
+  items=[];
   ngOnInit(): void {
     this.getProduct();
   }
@@ -22,9 +22,25 @@ export class ProductsComponent implements OnInit {
     });
   }
   addToCart(id:number){
-    
-    this.router.navigate(['user/cart',id])
+    alert("Product successfully added to your cart")
+    // this.router.navigate(['user/cart',id])
     console.log('id',id);
+    this.item=this.product.filter(val=>val.id===id)
+    console.log('product',this.item[0]);
     
+    // localStorage.setItem('this.item', JSON.stringify(this.item));
+    this.items.push(this.item[0])
+    console.log('items set',this.items);
+    localStorage.setItem('products', JSON.stringify(this.items));
+    
+    
+    // this.item.push(this.items)
+    // console.log('items',typeof( this.items));
+    
+    // localStorage.setItem("allEntries", JSON.stringify(this.items));
+  }
+  goToCartPage(){
+    this.router.navigate(['user/cart'])
+
   }
 }
